@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "amplifytodoapp22ed75e0": {}
+      },
+      "function": {
+        "retrievetodo": {
+          "deploymentBucketName": "amplify-amplifytodoapp-dev-153716-deployment",
+          "s3Key": "amplify-builds/retrievetodo-695a376c51677a4c6775-build.zip"
+        }
       }
     }
   }

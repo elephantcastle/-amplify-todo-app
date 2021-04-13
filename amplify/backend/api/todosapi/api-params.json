@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/todos",
+            "lambdaFunction": "retrievetodo",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/todos"
+        }
+    ],
+    "resourceName": "todosapi",
+    "apiName": "todosapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "retrievetodo"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifytodoapp-dev-153716-authRole",
+        "unAuthRoleName": "amplify-amplifytodoapp-dev-153716-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "retrievetodo",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
